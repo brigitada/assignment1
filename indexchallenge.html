@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Margin dan padding</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="navbar">
+    <a href="index.html" class="outside_link">HOME</a>
+    <a href="index.html" class="outside_link">PRODUCT</a>
+    <a href="index.html" class="outside_link">GALLERY</a>
+    <a href="index.html" class="outside_link">BLOG</a>
+    <a href="index.html" class="outside_link">MY INVENTORY</a>
+  </div>
+
+  <div class="base_box">
+    <!-- div profil -->
+    <!-- <h1>ini profil</h1> -->
+     <div class="profil_box">
+        <!-- image, dibikin inline -->
+        <!-- <a href="https://www.flaticon.com/free-icons/person" title="person icons">Person icons created by Freepik - Flaticon</a> -->
+        <img src="./images/foto profil.png" alt="foto profil" style="width:200px;height:200px;float: left;">
+    </div>
+     <div class="profil_box">
+        <!-- div 2: nama, title & 2 buttons, dibikin inline -->
+        <h2>Jose Ricardo</h2>
+        <h4>Front-End Developer</h4>
+        <button type="button">Kontak</button>
+        <button type="button">Resume</button>
+     </div>
+     <div class="profil_box">
+        <!-- div 3: tabel detail, dibikin inline -->
+         <table>
+            <tbody>
+                <tr>
+                    <th>Availability</th>
+                    <td>Full Time</td>
+                </tr>
+                <tr>
+                    <th>Usia</th>
+                    <td>25 tahun</td>
+                </tr>
+                <tr>
+                    <th>Lokasi</th>
+                    <td>Bogor</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>jose.ricardo@email.com</td>
+                </tr>
+            </tbody>
+         </table>
+     </div>
+  </div>
+
+  <div class="base_box">
+    <!-- div form -->
+     <form>
+        <label for="nama">NAMA</label><br>
+        <input type="text" name="NAMA" id="nama">
+        <br><br>
+        <label for="alamat">ROLE</label><br>
+        <input type="text" name="ALAMAT" id="alamat">
+        <br><br>
+        <label for="avail">AVAILABILITY</label><br>
+        <input type="text" name="ALAMAT" id="avail">
+        <br><br>
+        <label for="age">AGE</label><br>
+        <input type="text" name="ALAMAT" id="age">
+        <br><br>
+        <label for="lokasi">LOKASI</label><br>
+        <input type="text" name="ALAMAT" id="lokasi">
+        <br><br>
+        <label for="exper">YEARS EXPERIENCE</label><br>
+        <input type="text" name="ALAMAT" id="exper">
+        <br><br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" name="ALAMAT" id="email"><br><br>
+        <input type="submit" value="SUBMIT" id="style_submit">
+    </form>
+  </div>
+
+</body>
+</html>
